@@ -1,0 +1,230 @@
+/* Add your custom CSS styles here */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  
+  
+  .header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .header .logo span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .header .toggle-sidebar-btn {
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .header .search-bar {
+    margin-left: 40px;
+  }
+  
+  .header .search-bar .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .header .search-bar button[type="submit"] {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header .header-nav {
+    margin-left: auto;
+  }
+  
+  .header .header-nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .header-nav li {
+    margin-left: 10px;
+    position: relative;
+  }
+  
+  .header .header-nav .nav-link {
+    color: #000;
+    font-size: 24px;
+  }
+  
+  .header .header-nav .nav-icon {
+    position: relative;
+  }
+  
+  .header .header-nav .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    background-color: #ff5c83;
+    color: #fff;
+  }
+  
+  .header .header-nav .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 200px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  .header .header-nav .dropdown-menu.show {
+    display: block;
+  }
+  
+  .header .header-nav .dropdown-menu .dropdown-header {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .header .header-nav .dropdown-menu .dropdown-divider {
+    margin: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .header .header-nav .dropdown-menu .notification-item,
+  .header .header-nav .dropdown-menu .message-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .header .header-nav .dropdown-menu .notification-item i,
+  .header .header-nav .dropdown-menu .message-item i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .header .header-nav .dropdown-menu .notification-item h4,
+  .header .header-nav .dropdown-menu .message-item h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .header .header-nav .dropdown-menu .notification-item p,
+  .header .header-nav .dropdown-menu .message-item p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .header .header-nav .dropdown-menu .notification-item p:last-child,
+  .header .header-nav .dropdown-menu .message-item p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .header .header-nav .dropdown-menu .profile {
+    min-width: 220px;
+  }
+  
+  .header .header-nav .dropdown-menu .profile .dropdown-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .header .header-nav .dropdown-menu .profile .dropdown-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .header-nav .dropdown-menu .profile .dropdown-item i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .header .header-nav .dropdown-menu .profile .dropdown-item span {
+    font-size: 14px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  .d-none.d-lg-block {
+    white-space: nowrap;
+  }
+  
+  .d-none.d-lg-block br {
+    display: none;
+  }
+  
+  @media (min-width: 992px) {
+    .d-none.d-lg-block {
+      white-space: normal;
+    }
+    
+    .d-none.d-lg-block br {
+      display: block;
+    }
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    /* Estilos para la imagen del logo */
+  }
+  
+  .logo span {
+    display: none;
+  }
+  
+  @media (min-width: 992px) {
+    .logo span {
+      display: block;
+    }
+  }
+  
+  .toggle-sidebar-btn {
+    /* Estilos para el ícono de la barra de navegación */
+  }
+  
+  .toggle-sidebar-btn i {
+    padding: 0 50px;
+    font-size: 30px;
+  }
+  
